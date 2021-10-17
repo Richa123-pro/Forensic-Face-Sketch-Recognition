@@ -58,6 +58,9 @@ end
  save databasemlbp.mat final_feature_poto final_feature_sketch face_file
 close all;
 pause;
+disp('------------------------------------------------');
+disp('EXECUTING MULTISCALE LOCAL BINARY PATTERNS(MLBP)');
+disp('------------------------------------------------');
 
 load databasemlbp.mat
 
@@ -92,7 +95,7 @@ figure,
 		hold on;
 
 		pause(0.1);
-        close all
+        
 		end
         
 end
